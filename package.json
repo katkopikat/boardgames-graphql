@@ -1,0 +1,19 @@
+{
+  "name": "boardgame-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/katkopikat/boardgames-graphql.git"
+  },
+  "author": "KatyRog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katkopikat/boardgames-graphql/issues"
+  },
+  "homepage": "https://github.com/katkopikat/boardgames-graphql#readme"
+}
