@@ -1,6 +1,9 @@
+import { games, getGameById } from './db';
+
 const resolvers = {
     Query: {
-        name: () => 'Kat',
+        games: () => games,
+        game: (_, { id }) => getGameById(id),
     },
 };
 

@@ -1,6 +1,18 @@
 const typeDefs = /* GraphQL */ `
-    type Query {
+    type BoardGame {
+        id: Int!
         name: String!
+        originalName: String!
+        genres: [String]
+        description: String
+        maxPlayers: Int!
+        minPlayers: Int!
+        # images: String
+    }
+
+    type Query {
+        games: [BoardGame]!
+        game(id: Int!): BoardGame
     }
 `;
 
